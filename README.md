@@ -1,8 +1,8 @@
 # docker
 docker
 
-$ sudo ./bin/compose up -d
+sudo sh ./bin/compose.sh up -d
 
-$ sudo ./bin/compose logs nginx
+sudo ./bin/compose logs nginx
 
-$ sudo ./bin/compose down
+sudo sh ./bin/compose.sh down
